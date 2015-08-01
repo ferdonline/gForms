@@ -50,11 +50,20 @@ class System(ClassModel):
     users    = UserList
     location = Str
     admin = ModelInstance( User )
+
 mysystem = System() #Empty, but structure completely defined
-mysystem = {        #Structure defined by individual fields, mixed objects and base values
+
+mysystem_alt = {    #Structure defined by individual fields, mixed objects and base values
     'users': ListClassModel(),
     'location': '',
     'admin': User()
 }
 ```
-For bug and other reports please contact
+
+## Installation:
+To provide Templates and work better with wxPython 3, a branch of traitsui shall be used. 
+```pip install https://github.com/ferdonline/traitsui/archive/gforms.zip```
+
+Also make saur wxPython is installed and available. With virtualenv you might want to use the --system-site-packages flag.
+
+For bug and other reports please contact.

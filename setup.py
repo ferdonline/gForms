@@ -12,5 +12,5 @@ setup(name='gForms',
     packages=['gforms_traits_patch'],
     py_modules=['gforms'],
     install_requires = ['traitsui'],
-    dependency_links=['https://github.com/ferdonline/traitsui/archive/netMan.zip']
+    dependency_links=['https://github.com/ferdonline/traitsui/archive/gforms.zip']
   )

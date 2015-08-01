@@ -71,7 +71,7 @@ from __future__ import print_function
 
 __author__ = "Fernando Pereira"
 __email__ = "fernando.pereira@cern.ch"
-__version__ = "0.2"
+__version__ = "1.0"
 __status__ = "Development"   #"Prototype", "Development", or "Production".
 __copyright__ = "Copyright (C) 2015 CERN"
 
